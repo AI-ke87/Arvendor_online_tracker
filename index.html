@@ -180,10 +180,10 @@ function render() {
 
         div.innerHTML = `
             <div style="width:150px">${a.name}</div>
-            <button onclick="applyCost(${index},1)" title="zum Beispiel Hinschmeißen">1 AkP</button>
-            <button onclick="applyCost(${index},3)" title="Gehen / Waffen wechseln">3 AkP</button>
-            <button onclick="applyCost(${index},6)" title="Laufen / Rucksack">6 AkP</button>
-            <button onclick="applyCost(${index},9)" title="Sprinten / Angriff">9 AkP</button>
+            <button onclick="applyCost(${index},1)" title="Hinschmeißen">1 AkP</button>
+            <button onclick="applyCost(${index},3)" title="Gehen / Waffen wechseln / Aufstehen">3 AkP</button>
+            <button onclick="applyCost(${index},6)" title="Laufen / Gegenstand aus dem Rucksack nehmen">6 AkP</button>
+            <button onclick="applyCost(${index},9)" title="Sprinten / Schwerer Angriff">9 AkP</button>
         `;
 
         tracker.appendChild(div);
