@@ -1,5 +1,5 @@
 # Arvendor Tracker
-Version includes:
+## Version includes:
   - dynamic list of actors
   - field for INI value and d6-dice
   - automatic sorting which of actor list (first always on top)
